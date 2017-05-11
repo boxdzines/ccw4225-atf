@@ -2,7 +2,7 @@
 <database>
     <element label="Media" max_length="40" name="x_snc_media_librar_media" type="collection">
         <element label="Creator" max_length="40" name="creator" type="string"/>
-        <element display="true" label="Title" max_length="40" name="title" type="string"/>
+        <element display="true" label="Title" mandatory="true" max_length="40" name="title" type="string"/>
         <element choice="1" label="Type" max_length="40" name="type" type="choice">
             <choice>
                 <element label="Book" value="Book"/>

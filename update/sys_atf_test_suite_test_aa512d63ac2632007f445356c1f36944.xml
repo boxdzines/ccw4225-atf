@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_atf_test_suite_test">
+    <sys_atf_test_suite_test action="INSERT_OR_UPDATE">
+        <abort_on_failure>true</abort_on_failure>
+        <order>2</order>
+        <sys_class_name>sys_atf_test_suite_test</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-05-11 16:43:55</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>aa512d63ac2632007f445356c1f36944</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>9f21e963ac2632007f445356c1f369ce</sys_name>
+        <sys_package display_value="Media Library" source="x_snc_media_librar">3458a92c518a32007f446637134c6055</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Media Library">3458a92c518a32007f446637134c6055</sys_scope>
+        <sys_update_name>sys_atf_test_suite_test_aa512d63ac2632007f445356c1f36944</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-05-11 16:45:44</sys_updated_on>
+        <test display_value="Loan Test">0884d16face232007f445356c1f369ee</test>
+        <test_suite display_value="Media Library Regression">9f21e963ac2632007f445356c1f369ce</test_suite>
+    </sys_atf_test_suite_test>
+</record_update>
