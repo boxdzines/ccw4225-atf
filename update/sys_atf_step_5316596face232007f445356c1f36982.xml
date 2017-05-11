@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description>Validate that the form matches the following condition:
+Status = Loaned</description>
+        <display_name>Field Values Validation</display_name>
+        <inputs/>
+        <order>7</order>
+        <step_config display_value="Field Values Validation">1b97cd31872022008182c9ded0e3ece5</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-05-11 15:55:14</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>5316596face232007f445356c1f36982</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Field Values Validation</sys_name>
+        <sys_package display_value="Media Library" source="x_snc_media_librar">3458a92c518a32007f446637134c6055</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Media Library">3458a92c518a32007f446637134c6055</sys_scope>
+        <sys_update_name>sys_atf_step_5316596face232007f445356c1f36982</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-05-11 15:55:14</sys_updated_on>
+        <table>x_snc_media_librar_copy</table>
+        <test display_value="Loan Test">0884d16face232007f445356c1f369ee</test>
+        <timeout/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=5316596face232007f445356c1f36982"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>5316596face232007f445356c1f36982</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-05-11 15:55:14</sys_created_on>
+        <sys_id>0846596face232007f445356c1f369da</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-05-11 15:55:14</sys_updated_on>
+        <value>status=Loaned^EQ</value>
+        <variable display_value="">4aa838f25320220002c6435723dc34e1</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>5316596face232007f445356c1f36982</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-05-11 15:55:14</sys_created_on>
+        <sys_id>4046596face232007f445356c1f369db</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-05-11 15:55:14</sys_updated_on>
+        <value>x_snc_media_librar_copy</value>
+        <variable display_value="">a0e13cc35320220002c6435723dc3467</variable>
+    </sys_variable_value>
+</record_update>
